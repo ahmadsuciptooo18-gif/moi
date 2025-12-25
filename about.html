@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sedang Dibuat</title>
+    
+    <style>
+    .container {
+            background: #ffffff;
+            padding: 50px 70px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        .container h1 {
+            color: #ff9800;
+            font-size: 48px;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 30px;
+            }
+
+            .container h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+  
+      <!-- Navigation -->
+    <nav>
+      <!-- ngebug jir hrefnya -->
+        <a hre="index.html" class="logo">
+            <span class="moi">moi</span><span class="bear">bear</span>
+        </a>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" onclick="closeMenu()">Home</a></li>
+            <li><a href="index.html#shop" onclick="closeMenu()">Shop</a></li>
+            <li><a href="about.html" onclick="closeMenu()">About</a></li>
+            <li><a href="kontak.html" class="active" onclick="closeMenu()">Contact</a></li>
+        </ul>
+    </nav>
+  
+ 
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-pattern"></div>
+        <div class="hero-content">
+            <h1>
+                <span class="different">Sedang</span>
+                <span class="different">Dibuat</span>
+            </h1>
+            <p class="hero-subtitle">Comingsoon Pages</p>
+        </div>
+    </section>
+<script src="moi.js"></script>
+</body>
+</html>
